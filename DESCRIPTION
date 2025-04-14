@@ -1,7 +1,7 @@
 Package: rbm25
 Title: A Light Wrapper Around the 'BM25' 'Rust' Crate for Okapi BM25
         Text Search
-Version: 0.0.3
+Version: 0.0.4
 Authors@R: c(
     person("David", "Zimmermann-Kollenda", , "david_j_zimmermann@hotmail.com", role = c("aut", "cre")),
     person("Michael Barlow", role = "aut", comment = "bm25 Rust library"),
@@ -22,11 +22,12 @@ RoxygenNote: 7.3.2
 Config/rextendr/version: 0.3.1.9001
 Config/testthat/edition: 3
 Config/rbm25/MSRV: 1.71.1
+Depends: R (>= 4.2)
 NeedsCompilation: yes
-Packaged: 2025-01-15 11:55:21 UTC; dazimme
+Packaged: 2025-04-14 20:23:31 UTC; david
 Author: David Zimmermann-Kollenda [aut, cre],
   Michael Barlow [aut] (bm25 Rust library),
   Authors of the dependency Rust crates [aut] (see AUTHORS file)
 Maintainer: David Zimmermann-Kollenda <david_j_zimmermann@hotmail.com>
 Repository: CRAN
-Date/Publication: 2025-01-16 10:40:02 UTC
+Date/Publication: 2025-04-14 22:40:02 UTC
